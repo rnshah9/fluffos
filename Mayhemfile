@@ -1,0 +1,9 @@
+project: fluffos
+target: fluffos
+image: ghcr.io/rnshah9/playground:fluffos
+testsuite: null
+
+cmds:
+  - cmd: /fluffos/bin/lpcc @@
+    env:
+      DISABLE_SMOKETEST: '1'
